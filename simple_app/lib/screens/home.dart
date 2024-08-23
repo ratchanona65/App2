@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
         title: const Text("Simple App"),
       ),
       body: Center(
-        child: Row(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextButton(
