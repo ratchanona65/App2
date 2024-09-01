@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 
-import 'screens/home.dart';
+import 'package:flutter_application_1/screens/latestRate.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    title: "SimpleApp",
-    home: const Home(),
+  runApp(MaterialApp(
+    title: "Exchange Currency",
+    home: Scaffold(
+        appBar: AppBar(
+          title: const Text("Exchange Currency"),
+        ),
+        body: const LatestRate()),
   ));
 }
